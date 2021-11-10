@@ -24,10 +24,12 @@
     <amp-story standalone
       title="Ostbröckli"
       publisher="Tagblatt"
-      publisher-logo-src="img/logo.jpg"
-      poster-portrait-src="img/poster.jpg"
+      publisher-logo-src="img/tagblatt.png"
+      poster-portrait-src="img/portrait-poster.jpg"
+      poster-square-src="img/square-poster.jpg"
+      poster-landscape-src="img/landscape-poster.jpg"
     >
-      <amp-story-page id="cover">
+      <amp-story-page id="cover" auto-advance-after="8s">
         <amp-story-grid-layer template="vertical">
             <amp-img class="center" src="img/logo.svg" width="55" height="70" layout="fixed" alt="ostbröckli logo"></amp-img>
             <amp-img class="center" style="margin-top: 5%;" src="img/pasta.png" width="230" height="350" layout="fixed" alt="penne"></amp-img>
@@ -38,7 +40,7 @@
       </amp-story-page>
     </amp-story-page>
     
-    <amp-story-page id=diana>
+    <amp-story-page id=diana auto-advance-after="8s">
       <amp-story-grid-layer template="fill" animate-in="zoom-in" animate-in-duration="200s">
           <amp-img src="img/diana.jpg" width="720" height="1280" layout="responsive" alt="Lieblingspasta von Diana Hagmann-Bula"></amp-img>
           <amp-img src="img/shade.png" width="720" height="1280" layout="responsive" alt=""></amp-img>
@@ -53,7 +55,7 @@
       </amp-story-grid-layer>
     </amp-story-page>
 
-      <amp-story-page id=ursbader>
+      <amp-story-page id=ursbader auto-advance-after="8s">
         <amp-story-grid-layer template="fill" animate-in="zoom-in" animate-in-duration="200s">
             <amp-img src="img/urs.jpg" width="720" height="1280" layout="responsive" alt="Lieblingspasta von Urs Bader"></amp-img>
             <amp-img src="img/shade.png" width="720" height="1280" layout="responsive" alt=""></amp-img>
@@ -68,7 +70,7 @@
           </amp-story-grid-layer>
       </amp-story-page>
 
-      <amp-story-page id=kaspar>
+      <amp-story-page id=kaspar auto-advance-after="8s">
         <amp-story-grid-layer template="fill" animate-in="zoom-in" animate-in-duration="200s">
             <amp-img src="img/kaspar.jpg" width="720" height="1280" layout="responsive" alt="Lieblingspasta von Kaspar Enz"></amp-img>
             <amp-img src="img/shade.png" width="720" height="1280" layout="responsive" alt=""></amp-img>
@@ -84,12 +86,12 @@
         </amp-story-grid-layer>   
       </amp-story-page>
 
-      <amp-story-page id=cta>
+      <amp-story-page id=cta auto-advance-after="8s">
         <amp-story-grid-layer template="fill">
             <amp-video poster="img/pasta-poster.jpg" src="img/pasta-vid.mp4" width="720" heigth="1280" layout="responsive"></amp-video>
         </amp-story-grid-layer>
         <amp-story-grid-layer template="vertical">
-            <amp-img src="img/logo.svg" width="55" height="70" layout="fixed" alt="ostbröckli logo"></amp-img>
+          <amp-img style="padding-left: 10%;"src="img/logo.svg" width="55" height="70" layout="fixed" alt="ostbröckli logo"></amp-img>
             <h2 class="spitzmarke">OSTBRÖCKLI</h2>
             <h3>Feine Pasta Rezepte und vieles mehr gibt's im Artikel</h3>
             <container style="position: absolute; bottom: 10%;">
