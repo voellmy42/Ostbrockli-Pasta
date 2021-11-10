@@ -1,0 +1,75 @@
+.center {
+    display: block;
+    margin: auto;
+    width: 85%;
+    padding: 10px;
+    text-align: center;
+  }
+.spitzmarke {
+    position: absolute;
+    bottom: 42%;
+    padding-left: 10%;
+    padding-right: 10%;
+    letter-spacing: 0.1em;
+    font-size: 0.7em;
+    font-weight: normal;
+    color: #f4e2ce;
+    text-align: center;
+}
+h1 {
+    position: absolute;
+    bottom: 33%;
+    padding-left: 10%;
+    padding-right: 10%;
+    letter-spacing: 0.15em;
+    color: #f4e2ce;
+    text-align: center;
+}
+h3 {
+    position: absolute;
+    bottom: 33%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 10%;
+    letter-spacing: 0.15em;
+    color: #f4e2ce;
+    text-align: center;
+}
+.abstract {
+    position: absolute;
+    bottom: 22%;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: #f4e2ce;
+    text-align: center;
+    font-size: 0.9em;
+    font-weight: lighter;
+}
+.quote {
+    position: absolute;
+    bottom: 10%;
+    padding-left: 10%;
+    padding-right: 5%;
+    color: #f4e2ce;
+}
+
+  amp-story-grid-layer.bottom {
+    align-content: end;
+  }
+  amp-story-grid-layer.noedge {
+    padding: 0px;
+  }
+  amp-story-grid-layer.center-text {
+    align-content: center;
+  }
+  .wrapper {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+  }
+  .banner-text {
+    text-align: center;
+    background-color: #000;
+    line-height: 2em;
+  }
+  
