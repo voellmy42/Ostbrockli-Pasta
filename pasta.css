@@ -34,9 +34,9 @@ h3 {
 }
 .abstract {
   position: absolute;
-  bottom: 20%;
-  padding-left: 5%;
-  padding-right: 5%;
+  bottom: 15%;
+  padding-left: 3%;
+  padding-right: 3%;
   color: #f4e2ce;
   text-align: center;
   font-size: 0.9em;
