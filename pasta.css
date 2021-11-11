@@ -1,75 +1,73 @@
 .center {
-    display: block;
-    margin: auto;
-    width: 85%;
-    padding: 10px;
-    text-align: center;
-  }
+  display: grid;
+  margin: auto;
+  padding: 10px;
+  text-align: center;
+}
 .spitzmarke {
-    position: absolute;
-    bottom: 42%;
-    padding-left: 10%;
-    padding-right: 10%;
-    letter-spacing: 0.1em;
-    font-size: 0.7em;
-    font-weight: normal;
-    color: #f4e2ce;
-    text-align: center;
+  position: relative;
+  top: 45%;
+  letter-spacing: 0.1em;
+  font-size: 0.7em;
+  font-weight: bold;
+  color: #f4e2ce;
+  text-align: center;
+  margin: auto;
 }
 h1 {
-    position: absolute;
-    bottom: 33%;
-    padding-left: 10%;
-    padding-right: 10%;
-    letter-spacing: 0.15em;
-    color: #f4e2ce;
-    text-align: center;
+  position: relative;
+  top: 0%;
+  padding-left: 10%;
+  padding-right: 10%;
+  color: #f4e2ce;
+  text-align: center;
 }
 h3 {
-    position: absolute;
-    bottom: 33%;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-top: 10%;
-    letter-spacing: 0.15em;
-    color: #f4e2ce;
-    text-align: center;
+  position: relative;
+  bottom: 30%;
+  padding-left: 10%;
+  padding-right: 5%;
+  padding-top: 5%;
+  color: #f4e2ce;
+  text-align: center;
+  font-size: 1.5em;
 }
 .abstract {
-    position: absolute;
-    bottom: 22%;
-    padding-left: 10%;
-    padding-right: 10%;
-    color: #f4e2ce;
-    text-align: center;
-    font-size: 0.9em;
-    font-weight: lighter;
+  position: absolute;
+  bottom: 20%;
+  padding-left: 5%;
+  padding-right: 5%;
+  color: #f4e2ce;
+  text-align: center;
+  font-size: 0.9em;
+  font-weight: lighter;
+  line-height: 160%;
 }
 .quote {
-    position: absolute;
-    bottom: 10%;
-    padding-left: 10%;
-    padding-right: 5%;
-    color: #f4e2ce;
+  position: absolute;
+  bottom: 10%;
+  padding-left: 10%;
+  padding-right: 3%;
+  color: #f4e2ce;
+  font-weight: bold;
 }
 
-  amp-story-grid-layer.bottom {
-    align-content: end;
-  }
-  amp-story-grid-layer.noedge {
-    padding: 0px;
-  }
-  amp-story-grid-layer.center-text {
-    align-content: center;
-  }
-  .wrapper {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 50% 50%;
-  }
-  .banner-text {
-    text-align: center;
-    background-color: #000;
-    line-height: 2em;
-  }
-  
+amp-story-grid-layer.bottom {
+  align-content: end;
+}
+amp-story-grid-layer.noedge {
+  padding: 0px;
+}
+amp-story-grid-layer.center-text {
+  align-content: center;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+}
+.banner-text {
+  text-align: center;
+  background-color: #000;
+  line-height: 2em;
+}
